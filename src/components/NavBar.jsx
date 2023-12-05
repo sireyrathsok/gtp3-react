@@ -8,15 +8,21 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className=" mx-7 pt-3  text-white font-manrope">
+    <nav className="  pt-3  text-white font-manrope  ">
       <div className=" flex flex-row justify-between items-center">
         <p className=" font-extrabold text-lg">GPT-3</p>
 
         <div className="  sm:hidden  ">
           {toggle ? (
-            <IoMdClose onClick={() => setToggle(false)} />
+            <IoMdClose
+              onClick={() => setToggle(false)}
+              className=" absolute z-50"
+            />
           ) : (
-            <FiAlignRight onClick={() => setToggle(!toggle)} className=" z-0" />
+            <FiAlignRight
+              onClick={() => setToggle(!toggle)}
+              className=" absolute z-50"
+            />
           )}
         </div>
 

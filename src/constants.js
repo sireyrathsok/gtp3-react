@@ -5,7 +5,7 @@ export const navLink = [
   },
   {
     id: "what is gpt",
-    title: "What is GPT?",
+    title: "What is GPT ?",
   },
   {
     id: "openAi",

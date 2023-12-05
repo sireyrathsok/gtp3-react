@@ -16,6 +16,14 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         manrope: ["Manrope", "sans-seri"],
       },
+      width: {
+        100: "666px",
+        150: "1013px",
+      },
+      height: {
+        100: "666px",
+        150: "1013px",
+      },
     },
   },
   plugins: [],

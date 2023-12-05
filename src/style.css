@@ -4,6 +4,10 @@
 
 
 @layer components{
+
+    .bg-light {
+        @apply  bg-gradient-to-tl from-primary to-slate-500  rounded-full  absolute  opacity-20 z-10
+    }
     .btn-primary {
         @apply bg-oragne text-white px-5  text-[20px] ring-1 rounded-sm hover:bg-orange-500  
     }
@@ -13,11 +17,11 @@
     }
 
     .text-head1 {
-        @apply text-[62px] font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-15% from-mxCol1 to-mxCol2 
+        @apply xl:text-6xl md:text-4xl text-4xl   space-y-10 font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-15% from-mxCol1 to-mxCol2 
     }
 
     .text-head2{
-        @apply font-manrope  text-[34px] font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-10% from-mxCol1 to-mxCol2
+        @apply font-manrope  text-4xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-10% from-mxCol1 to-mxCol2
     }
 
     .text-head3{
@@ -25,6 +29,6 @@
     }
 
     .text-Content {
-        @apply font-manrope font-[500]  text-ColorContent1 text-[16px] 
+        @apply font-manrope   font-[500]  text-ColorContent1 
     }
 }
