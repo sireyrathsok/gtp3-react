@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#052D56",
+        primary: "#042C54",
         secondary: "#031B34",
         oragne: "#FF4820",
         mxCol1: "#FA67C2",
@@ -18,11 +18,11 @@ export default {
       },
       width: {
         100: "666px",
-        150: "1013px",
+        150: "1090px",
       },
       height: {
         100: "666px",
-        150: "1013px",
+        150: "1090px",
       },
     },
   },

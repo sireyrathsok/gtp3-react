@@ -5,15 +5,30 @@
 
 @layer components{
 
+    .horizontal-line {
+        @apply bg-gradient-to-r from-mxCol2 to-mxCol1  w-10 h-1
+    }
+    .brand-logo{
+        @apply w-fit h-fit  mt-5  md:mx-8 mx-4 relative z-30
+    }
+
     .bg-light {
-        @apply  bg-gradient-to-tl from-primary to-slate-500  rounded-full  absolute  opacity-20 z-10
+        @apply  bg-gradient-to-tl from-primary to-slate-500  rounded-full  absolute  opacity-30 z-10
     }
     .btn-primary {
         @apply bg-oragne text-white px-5  text-[20px] ring-1 rounded-sm hover:bg-orange-500  
     }
 
+    .bg-2layer-opacity{
+    @apply bg-blue-300 h-40 w-60  rounded-tr-full rounded-br-full blur-lg opacity-10 absolute  z-50
+}
+
     .bg-grediant {
         @apply bg-gradient-to-r from-mxCol1 to-mxCol2 
+    }
+
+    .Feature-header {
+        @apply text-white font-manrope text-2xl font-extrabold
     }
 
     .text-head1 {
@@ -21,7 +36,7 @@
     }
 
     .text-head2{
-        @apply font-manrope  text-4xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-10% from-mxCol1 to-mxCol2
+        @apply font-manrope  text-3xl lg:text-4xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r   from-mxCol1  to-mxCol2
     }
 
     .text-head3{
@@ -29,6 +44,6 @@
     }
 
     .text-Content {
-        @apply font-manrope   font-[500]  text-ColorContent1 
+        @apply font-manrope text-lg   font-[500]  text-ColorContent1 
     }
 }
