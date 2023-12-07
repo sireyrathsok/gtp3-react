@@ -40,7 +40,7 @@
     }
 
     .text-head3{
-        @apply font-manrope font-[800] text-[24px] text-white
+        @apply font-manrope font-extrabold text-[20px] text-white
     }
 
     .text-Content {

@@ -1,50 +1,36 @@
 import React from "react";
-import { featureList } from "../constants";
+import { FeaturesList } from "../constants";
 
 const Features = () => {
   return (
-    <>
-      <p className="absolute mt-24 bg-2layer-opacity "></p>
-
-      <div className=" mt-24 pt-16  px-14   relative  z-30 bg-gradient-to-b bg-primary  ">
-        <p className=" horizontal-line"></p>
-        <div className=" lg:flex lg:justify-between ">
-          <p className=" Feature-header mt-2 lg:w-4/12"> What is GPT-3</p>
-          <p className=" text-Content mt-3 lg:w-8/12 lg:max-w-2xl  ">
-            We so opinion friends me message as delight. Whole front do of plate
-            heard oh ought. His defective nor convinced residence own.
-            Connection has put impossible own apartments boisterous. At jointure
-            ladyship an insisted so humanity he. Friendly bachelor entrance to
-            on by.
-          </p>
-        </div>
-        <div className=" my-24 lg:flex lg:justify-between">
-          <p className="text-head2 lg:max-w-md ">
-            The possibilities are beyond your imagination
-          </p>
-          <p className=" lg:text-end lg:w-2/5 mt-4 lg:relative lg:ring-0  font-manrope text-transparent bg-clip-text bg-gradient-to-r from-mxCol1 to-mxCol2 ">
-            Explore The Library
-          </p>
-        </div>
-
-        {/* -------------Features List-------- */}
-        <ul className=" lg:flex md:flex   ">
-          {featureList.map((nav) => {
-            return (
-              <div
-                className={` lg:max-w-xs ${
-                  nav.id === "Education" ? "pb-6" : ""
-                }   ${nav.id === "Knowledge" ? " lg:mx-10 md:mx-10" : ""}`}
-              >
-                <p className="  horizontal-line my-3"></p>
-                <li className="  Feature-header ">{nav.title}</li>
-                <li className=" my-10 w-full text-Content">{nav.des}</li>
-              </div>
-            );
-          })}
-        </ul>
+    <div className=" text-white mt-24 font-manrope lg:flex lg:justify-between  ">
+      <div className=" ">
+        <p className=" md:mt-3 lg:mt-0 text-head2 lg:text-3xl lg:max-w-md md:text-2xl">
+          The Future is Now and You Just Need To Realize It. Step into Future
+          Today & Make it Happen.
+        </p>
+        <p className="  mt-4   font-manrope text-transparent bg-clip-text bg-gradient-to-r from-mxCol1 to-mxCol2">
+          Request Early Access to Get Started
+        </p>
       </div>
-    </>
+      <ul className=" md:mt-16 lg:mt-0 lg:w-3/4    ">
+        {FeaturesList.map((nav) => {
+          return (
+            <div className=" my-16 lg:mt-0 md:my-10">
+              <p className="horizontal-line lg:mx-16 xl:mx-32 "></p>
+              <div className=" md:flex ">
+                <li className=" mt-4 md:mt-0 md:mr-16 text-head3 md:text-[16px] lg:text-[20px] lg:w-52 xl:w-40 md:w-1/3 lg:mx-16 xl:mx-32 ">
+                  {nav.title}
+                </li>
+                <li className=" mt-4 md:mt-0  md:text-[16px] md:ml-6 text-Content md:w-2/3 lg:max-w-sm">
+                  {nav.des}
+                </li>
+              </div>
+            </div>
+          );
+        })}
+      </ul>
+    </div>
   );
 };
 

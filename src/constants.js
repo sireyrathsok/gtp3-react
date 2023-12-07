@@ -21,7 +21,7 @@ export const navLink = [
   },
 ];
 
-export const featureList = [
+export const WhatGPT3List = [
   {
     id: "Chatbots",
     title: "Chatbots",
@@ -36,5 +36,28 @@ export const featureList = [
     id: "Education",
     title: "Education",
     des: "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b",
+  },
+];
+
+export const FeaturesList = [
+  {
+    id: "Improving",
+    title: "Improving end distrusts instantly",
+    des: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+  },
+  {
+    id: "Become",
+    title: "Become the tended active",
+    des: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+  },
+  {
+    id: "Message",
+    title: "Message or am nothing",
+    des: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+  },
+  {
+    id: "Really",
+    title: "Really boy law county",
+    des: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
   },
 ];
