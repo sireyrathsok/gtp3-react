@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Brands from "./components/Brands";
 import WhatGPT3 from "./components/WhatGPT3";
 import Features from "./components/Features";
+import Possibilities from "./components/Possibilities";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Brands />
       <WhatGPT3 />
       <Features />
+      <Possibilities />
     </div>
   );
 };

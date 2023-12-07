@@ -17,6 +17,7 @@ export default {
         manrope: ["Manrope", "sans-seri"],
       },
       width: {
+        98: "500px",
         100: "666px",
         150: "1090px",
       },

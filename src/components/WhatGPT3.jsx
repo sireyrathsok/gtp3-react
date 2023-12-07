@@ -22,7 +22,7 @@ const WhatGPT3 = () => {
           <p className="text-head2 lg:max-w-md ">
             The possibilities are beyond your imagination
           </p>
-          <p className=" lg:text-end lg:w-2/5 mt-4 lg:relative lg:ring-0  font-manrope text-transparent bg-clip-text bg-gradient-to-r from-mxCol1 to-mxCol2 ">
+          <p className=" text-mini lg:text-end lg:w-2/5 mt-4 lg:relative lg:ring-0  ">
             Explore The Library
           </p>
         </div>
