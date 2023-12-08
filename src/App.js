@@ -6,6 +6,7 @@ import WhatGPT3 from "./components/WhatGPT3";
 import Features from "./components/Features";
 import Possibilities from "./components/Possibilities";
 import CTA from "./components/CTA";
+import Blongs from "./components/Blongs";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Features />
       <Possibilities />
       <CTA />
+      <Blongs />
     </div>
   );
 };

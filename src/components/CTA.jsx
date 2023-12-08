@@ -2,7 +2,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className=" flex justify-between items-center rounded-lg shadow-sm mt-28 px-8 py-9 bg-gradient-to-r from-mxCol1 to-mxCol2 text-black font-manrope">
+    <div className=" flex justify-between items-center rounded-lg shadow-sm my-28 px-8 py-9 bg-gradient-to-r from-mxCol1 to-mxCol2 text-black font-manrope">
       <div>
         <p className=" text-xs">Request Early Access to Get Started</p>
         <p className=" md:text-xl  font-extrabold">
