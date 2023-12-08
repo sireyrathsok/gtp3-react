@@ -8,7 +8,7 @@ export default {
         primary: "#042C54",
         secondary: "#031B34",
         oragne: "#FF4820",
-        mxCol1: "#FA67C2",
+        mxCol1: "#AE67FA",
         mxCol2: "#F49867",
         ColorContent1: "#81AFDD",
       },

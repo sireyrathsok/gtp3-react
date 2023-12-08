@@ -5,6 +5,7 @@ import Brands from "./components/Brands";
 import WhatGPT3 from "./components/WhatGPT3";
 import Features from "./components/Features";
 import Possibilities from "./components/Possibilities";
+import CTA from "./components/CTA";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <WhatGPT3 />
       <Features />
       <Possibilities />
+      <CTA />
     </div>
   );
 };
