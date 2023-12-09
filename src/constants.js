@@ -61,3 +61,18 @@ export const FeaturesList = [
     des: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
   },
 ];
+
+export const FooterLink = [
+  {
+    title: "Links",
+    link: ["Overons", "Social Media", "Counters", "Contact"],
+  },
+  {
+    title: "Company",
+    link: ["Term $ Condition", "Privacy Policy", "Contact"],
+  },
+  {
+    title: "Get in touch",
+    link: ["Crechterwoord K12 182 DK Alknjkcb", "085-132567", "info@payme.net"],
+  },
+];

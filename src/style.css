@@ -58,4 +58,14 @@
     .text-mini {
         @apply font-manrope text-transparent bg-clip-text bg-gradient-to-r from-mxCol1 to-mxCol2
     }
+
+    .text-footer-head{
+        @apply font-manrope mb-2  text-slate-100 text-[14px] font-semibold
+    }
+
+    .text-footer-link{
+        @apply font-manrope text-sm text-slate-300 my-3 font-thin 
+    }
+
+    
 }
