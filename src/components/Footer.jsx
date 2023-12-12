@@ -3,10 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <div className=" flex-col justify-center items-center  md:px-20 xl:px-44 px-5  mt-24  bg-primary  ">
-      <p className=" text-center  text-head1 lg:text-5xl xl:px-24 lg:px-32 md:px-20    pt-24 w-full bg-gray-700  ">
+      <p className=" text-center  text-head1 lg:text-xl xl:px-24 lg:px-32 md:px-20    pt-24 w-full bg-gray-700  ">
         Do you want to step in to the future before others
       </p>
-      <p className=" my-10 py-3 px-5 mx-24 xl:mx-96 lg:mx-72 md:mx-52   text-center  border-solid border-2 text-white font-manrope   ">
+      <p className=" my-10 py-3 px-5 mx-20 xl:mx-96 lg:mx-72 md:mx-52   text-center  border-solid border-2 text-white font-manrope   ">
         Request Early Access
       </p>
 
